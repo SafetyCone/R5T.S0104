@@ -7,7 +7,10 @@ namespace R5T.S0104
     {
         static void Main()
         {
-            Console.WriteLine("Hello World!");
+            //Experiments.Instance.WhatIs_NestedTypeName();
+            //Experiments.Instance.WhatIs_OpenGenericTypeName();
+            //Experiments.Instance.WhatIs_ClosedGenericTypeName();
+            Experiments.Instance.WhatIs_DelegateTypeName_EventHandler();
         }
     }
 }
